@@ -15,6 +15,7 @@
         <module>gul-order</module>
         <module>gul-member</module>
         <module>gul-coupon</module>
+        <module>renren-security</module>
     </modules>
 
 
