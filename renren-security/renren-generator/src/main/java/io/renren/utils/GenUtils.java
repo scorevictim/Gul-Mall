@@ -188,7 +188,7 @@ public class GenUtils {
 	public static String getFileName(String template, String className, String packageName, String moduleName) {
 		String packagePath = "main" + File.separator + "java" + File.separator;
 		if (StringUtils.isNotBlank(packageName)) {
-			packagePath += packageName.replace(".", File.separator) + File.separator + "modules" + File.separator + moduleName + File.separator;
+			packagePath += packageName.replace(".", File.separator) + File.separator + File.separator + moduleName + File.separator;
 		}
 
 		if (template.contains("Entity.java.vm" )) {
@@ -224,12 +224,12 @@ public class GenUtils {
 		}
 
 		if (template.contains("index.vue.vm" )) {
-			return "vue" + File.separator + "views" + File.separator + "modules" +
+			return "vue" + File.separator + "views" + File.separator +
 					File.separator + moduleName + File.separator + className.toLowerCase() + ".vue";
 		}
 
 		if (template.contains("add-or-update.vue.vm" )) {
-			return "vue" + File.separator + "views" + File.separator + "modules" +
+			return "vue" + File.separator + "views" + File.separator +
 					File.separator + moduleName + File.separator + className.toLowerCase() + "-add-or-update.vue";
 		}
 
