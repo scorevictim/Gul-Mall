@@ -16,7 +16,16 @@
         <module>gul-member</module>
         <module>gul-coupon</module>
         <module>renren-security</module>
+        <module>gulmall-common</module>
     </modules>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.gulmall</groupId>
+            <artifactId>gulmall-common</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
 
 
 </project>
