@@ -15,12 +15,12 @@ class GulProductApplicationTests {
     @Test
     void contextLoads() {
 
-        BrandEntity brandEntity = new BrandEntity();
-
-        brandEntity.setDescript("haha");
-        brandEntity.setName("Huawei");
-        brandService.save(brandEntity);
-        System.out.println(brandEntity.getName());
+//        BrandEntity brandEntity = new BrandEntity();
+//
+//        brandEntity.setDescript("haha");
+//        brandEntity.setName("Huawei");
+//        brandService.save(brandEntity);
+//        System.out.println(brandEntity.getName());
 
 
     }
