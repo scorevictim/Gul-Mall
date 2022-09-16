@@ -2,7 +2,7 @@ spring:
   datasource:
     username: root
     password: root
-    url: jdbc:mysql://10.0.0.220:3306/gulmall_oms
+    url: jdbc:mysql://10.0.0.220:3306/gulmall_wms
     driver-class-name: com.mysql.cj.jdbc.Driver
 
 
