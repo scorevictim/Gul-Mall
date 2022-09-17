@@ -4,6 +4,12 @@ spring:
     password: root
     url: jdbc:mysql://10.0.0.220:3306/gulmall_ums
     driver-class-name: com.mysql.cj.jdbc.Driver
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 10.0.0.220:8848
+  application:
+    name: gul-member
 
 
 mybatis-plus:
